@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════
+   DARK THEME — Default (Admin Console)
+   Benchmark: GitHub Dark, Linear, Vercel Dashboard
+═══════════════════════════════════════════════════ */
+:root {
+  /* Backgrounds — layered depth system */
+  --bg-void:         #06090F;   /* deepest — main canvas */
+  --bg-base:         #0D1117;   /* cards, sidebar */
+  --bg-raised:       #161B22;   /* hover, active nav, inputs */
+  --bg-overlay:      #1C2128;   /* tooltips, dropdowns */
+  
+  /* Borders */
+  --border-subtle:   #21262D;   /* default borders */
+  --border-muted:    #30363D;   /* stronger dividers */
+  
+  /* Text */
+  --text-primary:    #E6EDF3;   /* all main readable text */
+  --text-secondary:  #7D8590;   /* labels, sub-text */
+  --text-ghost:      #484F58;   /* disabled, placeholders */
+  
+  /* Teal — primary accent, interactive only */
+  --teal:            #2DD4BF;
+  --teal-glow:       #2DD4BF18;
+  --teal-border:     #2DD4BF35;
+  --teal-solid:      #0D9488;   /* darker teal for buttons */
+  
+  /* Red — alerts, HIGH severity */
+  --red:             #FF7B72;
+  --red-glow:        #FF7B7212;
+  --red-border:      #FF7B7240;
+  
+  /* Amber — warnings, CAUTION */
+  --amber:           #E3B341;
+  --amber-glow:      #E3B34112;
+  --amber-border:    #E3B34140;
+  
+  /* Green — healthy, TRUSTED, LIVE */
+  --green:           #3FB950;
+  --green-glow:      #3FB95012;
+  --green-border:    #3FB95040;
+  
+  /* Typography */
+  --font:            'Plus Jakarta Sans', -apple-system, sans-serif;
+  
+  /* Transitions */
+  --transition-fast: 0.12s ease;
+  --transition-base: 0.2s ease;
+  --spring:          cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ═══════════════════════════════════════════════════
+   LIGHT THEME — Override (Admin light mode toggle)
+   Benchmark: GitHub Light, Linear light
+═══════════════════════════════════════════════════ */
+[data-theme="light"] {
+  --bg-void:         #F6F8FA;
+  --bg-base:         #FFFFFF;
+  --bg-raised:       #F6F8FA;
+  --bg-overlay:      #EAEEF2;
+  
+  --border-subtle:   #D0D7DE;
+  --border-muted:    #AFB8C1;
+  
+  --text-primary:    #1F2328;
+  --text-secondary:  #656D76;
+  --text-ghost:      #8C959F;
+  
+  --teal:            #0D9488;
+  --teal-glow:       #0D948812;
+  --teal-border:     #0D948835;
+  --teal-solid:      #0D9488;
+  
+  --red:             #CF222E;
+  --red-glow:        #CF222E12;
+  --red-border:      #CF222E40;
+  
+  --amber:           #9A6700;
+  --amber-glow:      #9A670012;
+  --amber-border:    #9A670040;
+  
+  --green:           #1A7F37;
+  --green-glow:      #1A7F3712;
+  --green-border:    #1A7F3740;
+}
+
+/* ═══════════════════════════════════════════════════
+   GLOBAL RESET
+═══════════════════════════════════════════════════ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg-void);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Remove default button styles */
+button {
+  font-family: var(--font);
+  cursor: pointer;
+}
+
+/* Remove default input styles */
+input, select, textarea {
+  font-family: var(--font);
+}
+
+/* Remove default link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ═══════════════════════════════════════════════════
+   CUSTOM SCROLLBAR
+═══════════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-muted);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-ghost);
+}
+
+/* ═══════════════════════════════════════════════════
+   ANIMATIONS
+═══════════════════════════════════════════════════ */
+
+/* Skeleton shimmer — used by SkeletonCard components */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-raised)  25%,
+    var(--bg-overlay) 50%,
+    var(--bg-raised)  75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+/* LIVE status dot pulse */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1;    transform: scale(1);    }
+  50%       { opacity: 0.4; transform: scale(0.85); }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* Spin — used by loader */
+@keyframes spin {
+  from { transform: rotate(0deg);   }
+  to   { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 0.8s linear infinite;
+}
+
+/* Path draw — used by line charts via Framer Motion */
+/* Defined here for reference, applied via Framer Motion in components */
+
+/* ═══════════════════════════════════════════════════
+   UTILITY CLASSES
+   Used alongside Tailwind where CSS vars are needed
+═══════════════════════════════════════════════════ */
+.card {
+  background: var(--bg-base);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+}
+
+.card-hover {
+  transition: border-color var(--transition-fast),
+              transform var(--transition-fast),
+              background var(--transition-fast);
+}
+.card-hover:hover {
+  border-color: var(--border-muted);
+  transform: translateY(-1px);
+}
+
+.monospace {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 0.9em;
+}
+
+/* Theme transition — smooth theme switch */
+*, *::before, *::after {
+  transition:
+    background-color 0.2s ease,
+    border-color     0.2s ease,
+    color            0.15s ease;
+}
+
+/* Except for elements that should not transition */
+.no-transition, .no-transition * {
+  transition: none !important;
+}

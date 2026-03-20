@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-12T08:25:29.715504",
+  "files": {
+    "properties_2020": {
+      "rows": 300000,
+      "cols": 48,
+      "cities": [
+        "Ahmedabad",
+        "Bengaluru",
+        "Chennai",
+        "Delhi",
+        "Gurgaon",
+        "Hyderabad",
+        "Kolkata",
+        "Mumbai",
+        "Navi Mumbai",
+        "Pune"
+      ],
+      "price_sqft_median": 6914.80813721279,
+      "null_columns": []
+    },
+    "properties_2025": {
+      "rows": 300000,
+      "cols": 48,
+      "cities": [
+        "Ahmedabad",
+        "Bengaluru",
+        "Chennai",
+        "Delhi",
+        "Gurgaon",
+        "Hyderabad",
+        "Kolkata",
+        "Mumbai",
+        "Navi Mumbai",
+        "Pune"
+      ],
+      "price_sqft_median": 10645.425514544291,
+      "null_columns": []
+    }
+  },
+  "price_drift_pct_by_city": {
+    "Mumbai": 52.55,
+    "Delhi": 45.41,
+    "Bengaluru": 59.59,
+    "Hyderabad": 67.3,
+    "Chennai": 41.37,
+    "Pune": 56.34,
+    "Kolkata": 31.43,
+    "Ahmedabad": 49.25,
+    "Navi Mumbai": 54.54,
+    "Gurgaon": 61.99
+  },
+  "overall_price_drift_pct": 53.95,
+  "schema_issues": [],
+  "status": "PASS"
+}

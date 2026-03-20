@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-13T12:06:03.922635",
+  "model": "sale_price_v1.pkl",
+  "shap_sample_size": 200,
+  "base_value": 8437.622370082747,
+  "global_importance": {
+    "locality_median_price_sqft": 1614.3236289723243,
+    "price_sqft_city_zscore": 1612.3936258218744,
+    "city_median_price_sqft": 1381.9437140990055,
+    "city_tier_encoded": 557.3169859035702,
+    "rbi_hpi_avg": 486.7917498485438,
+    "livability_score": 289.5398615946973,
+    "demand_supply_ratio": 232.00212061777955,
+    "total_sqft": 6.216885825687196,
+    "interest_rate": 6.194016818414744,
+    "sqft_per_bhk": 5.157571086271045,
+    "bath": 2.7309402347630436,
+    "bath_per_bhk": 2.5455761297866957,
+    "bhk": 2.3801311992915313,
+    "is_large_property": 1.5600963219634179
+  },
+  "top_3_features": [
+    "locality_median_price_sqft",
+    "price_sqft_city_zscore",
+    "city_median_price_sqft"
+  ],
+  "interpretation": "locality_median_price_sqft is the strongest predictor \u2014 where a property sits in its neighbourhood matters more than its size or city tier."
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-03-12T12:29:24.544167",
+  "split_strategy": "temporal_2020_2025",
+  "train_rows": 255000,
+  "val_rows": 45000,
+  "drift_rows": 300000,
+  "train_price_sqft_median": 6910.61,
+  "val_price_sqft_median": 6935.23,
+  "drift_price_sqft_median": 10645.42,
+  "price_drift_pct": 54.04,
+  "ks_stat": 0.3069,
+  "ks_p_value": 0.0,
+  "drift_confirmed": true,
+  "cities": 10,
+  "outliers_removed_2020": 0,
+  "outliers_removed_2025": 0
+}

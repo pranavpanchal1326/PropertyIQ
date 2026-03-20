@@ -1,0 +1,20 @@
+# Data — too large for GitHub
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+dashboard/frontend/node_modules/
+
+# Models — too large for GitHub
+models/*.pkl
+
+# Misc
+.env
+*.log
