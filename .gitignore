@@ -1,0 +1,14 @@
+data/raw/
+data/processed/
+models/*.pkl
+dashboard/frontend/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.log
+outputs/drift_analysis.png
+outputs/shap_importance.png
+outputs/feature_importance_sale.png
+outputs/feature_correlations.png
+outputs/model_evaluation_plots.png

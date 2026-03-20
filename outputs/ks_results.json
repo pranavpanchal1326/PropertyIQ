@@ -1,0 +1,68 @@
+{
+  "total_sqft": {
+    "ks_stat": 0.002083333333333326,
+    "p_value": 0.5870989794818258,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "bhk": {
+    "ks_stat": 0.0010409803921569427,
+    "p_value": 0.998291228377014,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "bath": {
+    "ks_stat": 0.0008194117647059018,
+    "p_value": 0.9999860997486504,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "bath_per_bhk": {
+    "ks_stat": 0.000728039215686288,
+    "p_value": 0.9999995458897986,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "sqft_per_bhk": {
+    "ks_stat": 0.001808627450980399,
+    "p_value": 0.7573114019804364,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "city_median_price_sqft": {
+    "ks_stat": 0.001998039215686198,
+    "p_value": 0.6402232169193068,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "locality_median_price_sqft": {
+    "ks_stat": 0.0021945098039215516,
+    "p_value": 0.5196312510027508,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "demand_supply_ratio": {
+    "ks_stat": 0.09411529411764707,
+    "p_value": 0.0,
+    "drift_detected": false,
+    "severity": "LOW"
+  },
+  "rbi_hpi_avg": {
+    "ks_stat": 0.8747982352941177,
+    "p_value": 0.0,
+    "drift_detected": true,
+    "severity": "HIGH"
+  },
+  "interest_rate": {
+    "ks_stat": 0.9695841176470588,
+    "p_value": 0.0,
+    "drift_detected": true,
+    "severity": "HIGH"
+  },
+  "livability_score": {
+    "ks_stat": 0.003865686274509783,
+    "p_value": 0.032418892319840964,
+    "drift_detected": false,
+    "severity": "LOW"
+  }
+}

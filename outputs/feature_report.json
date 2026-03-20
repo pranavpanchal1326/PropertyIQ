@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-03-11T17:04:21.462990",
+  "n_features": 14,
+  "feature_cols": [
+    "bhk",
+    "total_sqft",
+    "bath",
+    "bath_per_bhk",
+    "sqft_per_bhk",
+    "is_large_property",
+    "city_median_price_sqft",
+    "locality_median_price_sqft",
+    "price_sqft_city_zscore",
+    "city_tier_encoded",
+    "demand_supply_ratio",
+    "rbi_hpi_avg",
+    "interest_rate",
+    "livability_score"
+  ],
+  "train_rows": 255000,
+  "val_rows": 45000,
+  "drift_rows": 300000,
+  "top_correlations": {
+    "locality_median_price_sqft": 0.9207,
+    "city_median_price_sqft": 0.8056,
+    "demand_supply_ratio": 0.5324,
+    "price_sqft_city_zscore": 0.5206,
+    "city_tier_encoded": 0.4961
+  },
+  "null_counts_after_engineering": {
+    "train": {},
+    "val": {},
+    "drift": {}
+  }
+}

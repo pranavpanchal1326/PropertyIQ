@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-03-13T12:06:03.924000",
+  "methodology": "Implied CAGR from median price_sqft per city. 2020 vs 2025 datasets. 300,000 observations per year. cagr = (median_2025/median_2020)^(1/5) - 1",
+  "cagr_years": 5,
+  "uncertainty_per_year": 0.03,
+  "cities": {
+    "Ahmedabad": {
+      "cagr": 0.08338810020544374,
+      "annual_growth_rate": 0.08338810020544374,
+      "median_price_2020": 3443.9809148943204,
+      "median_price_2025": 5140.212120295597,
+      "n_rows_2020": 17904,
+      "n_rows_2025": 17896,
+      "trend_confidence": "MEDIUM"
+    },
+    "Bengaluru": {
+      "cagr": 0.09800081939338212,
+      "annual_growth_rate": 0.09800081939338212,
+      "median_price_2020": 6492.89066937315,
+      "median_price_2025": 10362.186657536342,
+      "n_rows_2020": 45014,
+      "n_rows_2025": 45190,
+      "trend_confidence": "HIGH"
+    },
+    "Chennai": {
+      "cagr": 0.07170091743071216,
+      "annual_growth_rate": 0.07170091743071216,
+      "median_price_2020": 5330.632007138913,
+      "median_price_2025": 7536.101083032491,
+      "n_rows_2020": 27366,
+      "n_rows_2025": 26943,
+      "trend_confidence": "HIGH"
+    },
+    "Delhi": {
+      "cagr": 0.07774856316944745,
+      "annual_growth_rate": 0.07774856316944745,
+      "median_price_2020": 7825.537294563843,
+      "median_price_2025": 11378.930063477408,
+      "n_rows_2020": 41983,
+      "n_rows_2025": 41810,
+      "trend_confidence": "HIGH"
+    },
+    "Gurgaon": {
+      "cagr": 0.10127371562268439,
+      "annual_growth_rate": 0.10127371562268439,
+      "median_price_2020": 10579.268292682927,
+      "median_price_2025": 17136.88967210646,
+      "n_rows_2020": 15227,
+      "n_rows_2025": 15022,
+      "trend_confidence": "MEDIUM"
+    },
+    "Hyderabad": {
+      "cagr": 0.10840417144999859,
+      "annual_growth_rate": 0.10840417144999859,
+      "median_price_2020": 5348.837209302325,
+      "median_price_2025": 8948.497854077254,
+      "n_rows_2020": 32955,
+      "n_rows_2025": 33183,
+      "trend_confidence": "HIGH"
+    },
+    "Kolkata": {
+      "cagr": 0.05618178915009442,
+      "annual_growth_rate": 0.05618178915009442,
+      "median_price_2020": 3647.398843930636,
+      "median_price_2025": 4793.763798027261,
+      "n_rows_2020": 20946,
+      "n_rows_2025": 20986,
+      "trend_confidence": "HIGH"
+    },
+    "Mumbai": {
+      "cagr": 0.08813114204790584,
+      "annual_growth_rate": 0.08813114204790584,
+      "median_price_2020": 15775.529865125241,
+      "median_price_2025": 24065.237636431142,
+      "n_rows_2020": 53605,
+      "n_rows_2025": 54190,
+      "trend_confidence": "HIGH"
+    },
+    "Navi Mumbai": {
+      "cagr": 0.09095344736595834,
+      "annual_growth_rate": 0.09095344736595834,
+      "median_price_2020": 9044.447716669425,
+      "median_price_2025": 13976.973684210527,
+      "n_rows_2020": 15084,
+      "n_rows_2025": 15099,
+      "trend_confidence": "MEDIUM"
+    },
+    "Pune": {
+      "cagr": 0.09348896404470497,
+      "annual_growth_rate": 0.09348896404470497,
+      "median_price_2020": 5849.5460440985735,
+      "median_price_2025": 9145.220588235294,
+      "n_rows_2020": 29916,
+      "n_rows_2025": 29681,
+      "trend_confidence": "HIGH"
+    }
+  }
+}
