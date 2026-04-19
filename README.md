@@ -429,92 +429,92 @@ npm run dev
 
 Landing page screenshots (use the image files below):
 
-- `docs/images/landing-hero.png`
-- `docs/images/landing-admin-preview.png`
-- `docs/images/landing-problem-section.png`
-- `docs/images/landing-three-layers.png`
-- `docs/images/landing-metrics-section.png`
-- `docs/images/landing-comparison-table.png`
-- `docs/images/landing-rbi-alignment.png`
+- `docs/images/Landing page 1.png`
+- `docs/images/Landing page 2.png`
+- `docs/images/Landing page 3.png`
+- `docs/images/Landing page 4.png`
+- `docs/images/Landing page 5.png`
+- `docs/images/Landing page 6.png`
+- `docs/images/Landing page 7.png`
 
 #### 21.1.1 Hero
-![Landing Hero](docs/images/landing-hero.png)
+![Landing Hero](docs/images/Landing%20page%201.png)
 
 #### 21.1.2 Admin Preview Block
-![Landing Admin Console Preview](docs/images/landing-admin-preview.png)
+![Landing Admin Console Preview](docs/images/Landing%20page%202.png)
 
 #### 21.1.3 Problem Section
-![Landing Problem Section](docs/images/landing-problem-section.png)
+![Landing Problem Section](docs/images/Landing%20page%203.png)
 
 #### 21.1.4 Three Layers Section
-![Landing Three Layers Section](docs/images/landing-three-layers.png)
+![Landing Three Layers Section](docs/images/Landing%20page%204.png)
 
 #### 21.1.5 Metrics Section
-![Landing Metrics Section](docs/images/landing-metrics-section.png)
+![Landing Metrics Section](docs/images/Landing%20page%205.png)
 
 #### 21.1.6 Comparison Table
-![Landing Comparison Table](docs/images/landing-comparison-table.png)
+![Landing Comparison Table](docs/images/Landing%20page%206.png)
 
 #### 21.1.7 RBI Alignment Section
-![Landing RBI Alignment Section](docs/images/landing-rbi-alignment.png)
+![Landing RBI Alignment Section](docs/images/Landing%20page%207.png)
 
 ### 21.2 Admin Console
 
 Admin Console screenshots (use the image files below):
 
-- `docs/images/admin-drift-overview.png`
-- `docs/images/admin-drift-city-table.png`
-- `docs/images/admin-model-health.png`
-- `docs/images/admin-city-analytics.png`
-- `docs/images/admin-alert-log.png`
+- `docs/images/admin 1.png`
+- `docs/images/admin 2.png`
+- `docs/images/admin 3.png`
+- `docs/images/admin 4.png`
+- `docs/images/admin 5.png`
 
 #### 21.2.1 Drift Monitor Overview
-![Admin Console Drift Monitor Overview](docs/images/admin-drift-overview.png)
+![Admin Console Drift Monitor Overview](docs/images/admin%201.png)
 
 #### 21.2.2 City-Level KS Drift Table
-![Admin Console City-Level KS Drift Table](docs/images/admin-drift-city-table.png)
+![Admin Console City-Level KS Drift Table](docs/images/admin%202.png)
 
 #### 21.2.3 Model Health
-![Admin Console Model Health](docs/images/admin-model-health.png)
+![Admin Console Model Health](docs/images/admin%203.png)
 
 #### 21.2.4 City Analytics
-![Admin Console City Analytics](docs/images/admin-city-analytics.png)
+![Admin Console City Analytics](docs/images/admin%204.png)
 
 #### 21.2.5 Alert Log
-![Admin Console Alert Log](docs/images/admin-alert-log.png)
+![Admin Console Alert Log](docs/images/admin%205.png)
 
 ### 21.3 Client Portal
 
 Client Portal screenshots (use the image files below):
 
-- `docs/images/client-empty-state.png`
-- `docs/images/client-valuation-field-verification.png`
-- `docs/images/client-map-market-context-mumbai.png`
-- `docs/images/client-forecast-mumbai.png`
-- `docs/images/client-valuation-trusted-pune.png`
-- `docs/images/client-map-market-context-pune.png`
-- `docs/images/client-forecast-pune.png`
+- `docs/images/client 1.png`
+- `docs/images/client 2.png`
+- `docs/images/client 3.png`
+- `docs/images/client 4.png`
+- `docs/images/client 5.png`
+- `docs/images/client 6.png`
+- `docs/images/client 7.png`
 
 #### 21.3.1 Empty State
-![Client Portal Empty State](docs/images/client-empty-state.png)
+![Client Portal Empty State](docs/images/client%201.png)
 
 #### 21.3.2 Valuation Result (Field Verification)
-![Client Portal Valuation Result Field Verification](docs/images/client-valuation-field-verification.png)
+![Client Portal Valuation Result Field Verification](docs/images/client%202.png)
 
 #### 21.3.3 Map and Market Context (Mumbai)
-![Client Portal Map and Market Context Mumbai](docs/images/client-map-market-context-mumbai.png)
+![Client Portal Map and Market Context Mumbai](docs/images/client%203.png)
 
 #### 21.3.4 Forecast View (Mumbai)
-![Client Portal Forecast View Mumbai](docs/images/client-forecast-mumbai.png)
+![Client Portal Forecast View Mumbai](docs/images/client%204.png)
 
 #### 21.3.5 Valuation Result (Trusted)
-![Client Portal Valuation Result Trusted](docs/images/client-valuation-trusted-pune.png)
+![Client Portal Valuation Result Trusted](docs/images/client%205.png)
 
 #### 21.3.6 Map and Market Context (Pune)
-![Client Portal Map and Market Context Pune](docs/images/client-map-market-context-pune.png)
+![Client Portal Map and Market Context Pune](docs/images/client%206.png)
 
 #### 21.3.7 Forecast View (Pune)
-![Client Portal Forecast View Pune](docs/images/client-forecast-pune.png)
+![Client Portal Forecast View Pune](docs/images/client%207.png)
 
 ---
 
