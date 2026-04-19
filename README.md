@@ -429,14 +429,6 @@ npm run dev
 
 Landing page screenshots (use the image files below):
 
-- `docs/images/Landing page 1.png`
-- `docs/images/Landing page 2.png`
-- `docs/images/Landing page 3.png`
-- `docs/images/Landing page 4.png`
-- `docs/images/Landing page 5.png`
-- `docs/images/Landing page 6.png`
-- `docs/images/Landing page 7.png`
-
 #### 21.1.1 Hero
 ![Landing Hero](docs/images/Landing%20page%201.png)
 
@@ -462,12 +454,6 @@ Landing page screenshots (use the image files below):
 
 Admin Console screenshots (use the image files below):
 
-- `docs/images/admin 1.png`
-- `docs/images/admin 2.png`
-- `docs/images/admin 3.png`
-- `docs/images/admin 4.png`
-- `docs/images/admin 5.png`
-
 #### 21.2.1 Drift Monitor Overview
 ![Admin Console Drift Monitor Overview](docs/images/admin%201.png)
 
@@ -487,13 +473,6 @@ Admin Console screenshots (use the image files below):
 
 Client Portal screenshots (use the image files below):
 
-- `docs/images/client 1.png`
-- `docs/images/client 2.png`
-- `docs/images/client 3.png`
-- `docs/images/client 4.png`
-- `docs/images/client 5.png`
-- `docs/images/client 6.png`
-- `docs/images/client 7.png`
 
 #### 21.3.1 Empty State
 ![Client Portal Empty State](docs/images/client%201.png)
@@ -520,7 +499,7 @@ Client Portal screenshots (use the image files below):
 
 ## 22. License
 
-Specify your license here (e.g., MIT).
+
 
 ---
 
