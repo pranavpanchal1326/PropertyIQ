@@ -497,7 +497,6 @@ Client Portal screenshots (use the image files below):
 
 ---
 
-## 22. License
 
 
 
